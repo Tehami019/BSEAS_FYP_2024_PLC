@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Bottle']
+
+roboflow:
+  workspace: alpha-alvlm
+  project: bottle-segmentation-y6kus
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alpha-alvlm/bottle-segmentation-y6kus/dataset/2
